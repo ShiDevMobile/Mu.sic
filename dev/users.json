@@ -1,0 +1,35 @@
+[
+    {
+      "userid": 1,  
+      "username": "nguyenvansu",
+      "password": "vansu01",
+      "full_name": "Nguyễn Văn Sử",
+      "email": "nguyen.vansu@example.com",
+      "age": 22
+    },
+    {
+       "userid": 2,
+      "username": "hoanhtu",
+      "password": "hotu02",
+      "full_name": "Hồ Anh Tú",
+      "email": "ho.anhtu@example.com",
+      "age": 22
+    },
+    {
+      "userid": 3,
+      "username": "trangiang",
+      "password": "truonggiang03",
+      "full_name": "Trần Nguyễn Trường Giang",
+      "email": "trangiang@example.com",
+      "age": 22
+    },
+    {
+     "userid": 4,
+      "username": "thanhtuan",
+      "password": "thanhtuan04",
+      "full_name": "Quách Thanh Tuấn",
+      "email": "quach.thanhtuan@example.com",
+      "age": 22
+    }
+  ]
+  

@@ -1,0 +1,80 @@
+{
+    "artists": [
+      {
+        "name": "Đức Phúc",
+        "genre": "Vpop",
+        "image": "ducpuc.jpg"
+      },
+      {
+        "name": "The Weeknd",
+        "genre": "US-UK",
+        "image": "theweeknd.jpg"
+      },
+      {
+        "name": "Travis Scott",
+        "genre": "US-UK",
+        "image": "travisscott.jpg"
+      },
+      {
+        "name": "BTS feat. Halsey",
+        "genre": "Kpop",
+        "image": "bts.jpg"
+      },
+      {
+        "name": "Yuno Bigboi x Freak D",
+        "genre": "Rap Việt",
+        "image": "yunofreak.jpg"
+      },
+      {
+        "name": "Adele",
+        "genre": "US-UK",
+        "image": "adele.jpg"
+      },
+      {
+        "name": "BLACKPINK",
+        "genre": "Kpop",
+        "image": "blackpink.jpg"
+      },
+      {
+        "name": "Led Zeppelin",
+        "genre": "Rock",
+        "image": "ledzeppelin.jpg"
+      },
+      {
+        "name": "Trúc Nhân",
+        "genre": "Vpop",
+        "image": "trucnhan.jpg"
+      },
+      {
+        "name": "Billie Eilish",
+        "genre": "US-UK",
+        "image": "billieeilish.jpg"
+      },
+      {
+        "name": "Crayon",
+        "genre": "Vpop",
+        "image": "crayon.jpg"
+      },
+      {
+        "name": "Charlie Puth",
+        "genre": "US-UK",
+        "image": "charlieputh.jpg"
+      },
+      {
+        "name": "Phan Mạnh Quỳnh",
+        "genre": "Vpop",
+        "image": "phanmanhquynh.jpg"
+      },
+      {
+        "name": "Tones and I",
+        "genre": "US-UK",
+        "image": "tonesandi.jpg"
+      },
+      {
+        "name": "Trịnh Thăng Bình",
+        "genre": "Vpop",
+        "image": "trinhthangbinh.jpg"
+      }
+    ]
+  }
+  
