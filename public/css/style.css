@@ -24,14 +24,14 @@ body {
 
 .submit-page .submit-wrapper {
     background-color: #101103;
-    height: 500px;
     display: flex;
     flex-direction: column;
     width: 600px;
+    min-height:75vh;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 20px 0 0;
+   margin-bottom: 30px;
+    padding: 10px 0 0;
 }
 
 .submit-wrapper .submit-title{
@@ -62,7 +62,7 @@ text-align: center;
 }
 
 #formvalidate .form-group:not(:last-child){
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #formvalidate .form-group .input-field{
@@ -70,15 +70,16 @@ text-align: center;
     background: #302d3d 24%;
     outline: none;
     border-color: #101103;
-    color:  white
+    color:  white;
+    border-radius: 8px;
 }
 
 #formvalidate .submit-btn{
-margin-top: 35px;
+margin-top: 20px;
 width:100%;
 padding: 10px 0;
 background-color: #35A655;
-border-radius: 8px;
+border-radius: 20px;
 color: white;
 font-size: 20px;
 font-weight: bold;
@@ -96,7 +97,12 @@ border-color: #35A655
     text-align: center;
     font-size: 15px; 
 }
-
+.submit-wrapper #signin-link{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px; 
+}
 
 
 
