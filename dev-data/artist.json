@@ -10,55 +10,68 @@
       },
       {
         "name": "Travis Scott",
-        "genre": "US-UK"
+        "genre": "US-UK",
+        "image": "/images/artists/travist-scott.jpeg"
       },
       {
-        "name": "BTS feat. Halsey",
-        "genre": "Kpop"
+        "name": "BTS",
+        "genre": "Kpop",
+        "image": "/images/artists/bts.jpeg"
       },
       {
-        "name": "Yuno Bigboi x Freak D",
-        "genre": "Rap Việt"
+        "name": "Double2T",
+        "genre": "Rap Việt",
+        "image": "/images/artists/double2t.jpeg"
       },
       {
         "name": "Adele",
-        "genre": "US-UK"
+        "genre": "US-UK",
+        "image": "/images/artists/adele.jpeg"
       },
       {
         "name": "BLACKPINK",
-        "genre": "Kpop"
+        "genre": "Kpop",
+        "image": "/images/artists/blackpink.jpeg"
       },
       {
         "name": "Led Zeppelin",
-        "genre": "Rock"
+        "genre": "Rock",
+        "image": "/images/artists/led-zeppelin.jpeg"
       },
       {
         "name": "Trúc Nhân",
-        "genre": "Vpop"
+        "genre": "Vpop",
+        "image": "/images/artists/truc-nhan.jpeg"
       },
       {
         "name": "Billie Eilish",
-        "genre": "US-UK"
+        "genre": "US-UK",
+        "image": "/images/artists/billie-eilish.jpeg"
       },
       {
         "name": "Crayon",
-        "genre": "Vpop"
+        "genre": "Vpop",
+        "image": ""
       },
       {
         "name": "Charlie Puth",
-        "genre": "US-UK"
+        "genre": "US-UK",
+        "image": "/images/artists/charlie-puth.jpeg"
       },
       {
         "name": "Phan Mạnh Quỳnh",
-        "genre": "Vpop"
+        "genre": "Vpop",
+        "image": "/images/artists/phan-manh-quynh.jpeg"
       },
       {
         "name": "Tones and I",
-        "genre": "US-UK"
+        "genre": "US-UK",
+        "image": "/images/artists/tones-and-i.jpeg"
       },
       {
         "name": "Trịnh Thăng Bình",
-        "genre": "Vpop"
+        "genre": "Vpop",
+        "image": "/images/artists/trinh-thang-binh.jpeg"
       }
     ]
   }
