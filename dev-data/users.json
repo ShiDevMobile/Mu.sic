@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "username": "nguyenvansu",
+        "password": "$2b$10$hYqL.q6qvYremNGqBLFd6.AE8tnQvXPZLVdt1sZ/d6e39Gpfg8Gi.",
+        "full_name": "Nguyễn Văn Sử",
+        "email": "nguyen.vansu@example.com"
+    },
+    {
+        "id": 2,
+        "username": "hoanhtu",
+        "password": "$2b$10$CLo1N4cK1Kig2Zsw8sXRM.FUB42oDcKNPD9Btj6iHYInpn/wS8Tgy",
+        "full_name": "Hồ Anh Tú",
+        "email": "ho.anhtu@example.com"
+    },
+    {
+        "id": 3,
+        "username": "trangiang",
+        "password": "$2b$10$YUwXvYG7AsdQyDLJvMWvOOCZb.dqJPJz7jJtr9cmcphuX4tk6O3m6",
+        "full_name": "Trần Nguyễn Trường Giang",
+        "email": "trangiang@example.com"
+    },
+    {
+        "id": 4,
+        "username": "thanhtuan",
+        "password": "$2b$10$MlaY3VlEoGugmruwoqAUdOVUV.rPbwPs6UaIFOPz2R9GafoBxU1fy",
+        "full_name": "Quách Thanh Tuấn",
+        "email": "quach.thanhtuan@example.com"
+    },
+    {
+        "email": "a",
+        "username": "a",
+        "repeatPassword": "a",
+        "password": "$2b$10$PIX.mOJJ/Su83ZpaAdh5iOLNZ9lkOWaG8yv.hd3kg1KmpU8NNurIe",
+        "id": "bc593909-3dd5-46ac-ada5-3b3b9c9a785a"
+    }
+]

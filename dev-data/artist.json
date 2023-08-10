@@ -1,0 +1,65 @@
+{
+    "artists": [
+      {
+        "name": "Đức Phúc",
+        "genre": "Vpop"
+      },
+      {
+        "name": "The Weeknd",
+        "genre": "US-UK"
+      },
+      {
+        "name": "Travis Scott",
+        "genre": "US-UK"
+      },
+      {
+        "name": "BTS feat. Halsey",
+        "genre": "Kpop"
+      },
+      {
+        "name": "Yuno Bigboi x Freak D",
+        "genre": "Rap Việt"
+      },
+      {
+        "name": "Adele",
+        "genre": "US-UK"
+      },
+      {
+        "name": "BLACKPINK",
+        "genre": "Kpop"
+      },
+      {
+        "name": "Led Zeppelin",
+        "genre": "Rock"
+      },
+      {
+        "name": "Trúc Nhân",
+        "genre": "Vpop"
+      },
+      {
+        "name": "Billie Eilish",
+        "genre": "US-UK"
+      },
+      {
+        "name": "Crayon",
+        "genre": "Vpop"
+      },
+      {
+        "name": "Charlie Puth",
+        "genre": "US-UK"
+      },
+      {
+        "name": "Phan Mạnh Quỳnh",
+        "genre": "Vpop"
+      },
+      {
+        "name": "Tones and I",
+        "genre": "US-UK"
+      },
+      {
+        "name": "Trịnh Thăng Bình",
+        "genre": "Vpop"
+      }
+    ]
+  }
+  

@@ -1,0 +1,80 @@
+{
+    "albums": [
+      {
+        "title": "Single (Hết Thương Cạn Nhớ)",
+        "artist": "Đức Phúc",
+        "release_date": "2021-08-10"
+      },
+      {
+        "title": "After Hours",
+        "artist": "The Weeknd",
+        "release_date": "2019-11-29"
+      },
+      {
+        "title": "Astroworld",
+        "artist": "Travis Scott",
+        "release_date": "2018-08-03"
+      },
+      {
+        "title": "Map of the Soul: Persona",
+        "artist": "BTS feat. Halsey",
+        "release_date": "2019-04-12"
+      },
+      {
+        "title": "Single (Ghiền Mì Gõ)",
+        "artist": "Yuno Bigboi x Freak D",
+        "release_date": "2022-01-21"
+      },
+      {
+        "title": "21",
+        "artist": "Adele",
+        "release_date": "2010-11-29"
+      },
+      {
+        "title": "Kill This Love",
+        "artist": "BLACKPINK",
+        "release_date": "2019-04-04"
+      },
+      {
+        "title": "Led Zeppelin IV",
+        "artist": "Led Zeppelin",
+        "release_date": "1971-11-08"
+      },
+      {
+        "title": "Nhạc Sống Trúc Nhân",
+        "artist": "Trúc Nhân",
+        "release_date": "2018-07-13"
+      },
+      {
+        "title": "When We All Fall Asleep, Where Do We Go?",
+        "artist": "Billie Eilish",
+        "release_date": "2019-03-29"
+      },
+      {
+        "title": "Single (Mùa Hè Không Em)",
+        "artist": "Crayon",
+        "release_date": "2021-06-11"
+      },
+      {
+        "title": "Voicenotes",
+        "artist": "Charlie Puth",
+        "release_date": "2018-04-21"
+      },
+      {
+        "title": "Chưa Bao Giờ",
+        "artist": "Phan Mạnh Quỳnh",
+        "release_date": "2015-07-07"
+      },
+      {
+        "title": "The Kids Are Coming",
+        "artist": "Tones and I",
+        "release_date": "2019-05-10"
+      },
+      {
+        "title": "Ngày Chưa Giông Bão",
+        "artist": "Trịnh Thăng Bình",
+        "release_date": "2020-04-24"
+      }
+    ]
+  }
+  
