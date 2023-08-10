@@ -6,7 +6,9 @@
       "genre": "Vpop",
       "album": "Single",
       "release_date": "2021-08-10",
-      "duration": "4:26"
+      "duration": "4:26",
+      "url":"/data/HẾT THƯƠNG CẠN NHỚ - ĐỨC PHÚC.mp3",
+      "image":"/images/songs/het-thuong-can-nho.jpeg"
     },
     {
       "song_id": "S002",
@@ -15,7 +17,9 @@
       "genre": "US-UK",
       "album": "After Hours",
       "release_date": "2019-11-29",
-      "duration": "3:22"
+      "duration": "3:22",
+      "url":"/data/yt5s.io - The Weeknd - Blinding Lights (Official Video) (128 kbps).mp3",
+      "image":"/images/songs/blinding-lights.jpeg"
     },
     {
       "song_id": "S003",
@@ -24,7 +28,9 @@
       "genre": "US-UK",
       "album": "Astroworld",
       "release_date": "2018-08-03",
-      "duration": "5:12"
+      "duration": "5:12",
+      "url":"/data/yt5s.io - Travis Scott - SICKO MODE ft. Drake (128 kbps).mp3",
+      "image":""
     },
     {
       "song_id": "S004",
@@ -33,16 +39,20 @@
       "genre": "Kpop",
       "album": "Map of the Soul: Persona",
       "release_date": "2019-04-12",
-      "duration": "3:50"
+      "duration": "3:50",
+      "url":"",
+      "image":"/images/songs/boy-with-luv.jpeg"
     },
     {
       "song_id": "S005",
-      "title": "Ghiền Mì Gõ",
-      "artist": "Yuno Bigboi x Freak D",
+      "title": "À lôi",
+      "artist": "Double2T x Masew",
       "genre": "Rap Việt",
-      "album": "Single",
+      "album": "À lôi",
       "release_date": "2022-01-21",
-      "duration": "2:56"
+      "duration": "2:56",
+      "url":"/data/yt5s.io - À Lôi - Double2T x Masew Chill Mix (128 kbps).mp3",
+      "image":"/images/songs/a-loi.jpeg"
     },
     {
       "song_id": "S006",
@@ -51,7 +61,9 @@
       "genre": "US-UK",
       "album": "21",
       "release_date": "2010-11-29",
-      "duration": "3:48"
+      "duration": "3:48",
+      "url":"",
+      "image":"/images/songs/rolling-in-the-deep.jpeg"
     },
     {
       "song_id": "S007",
@@ -60,7 +72,9 @@
       "genre": "Kpop",
       "album": "Kill This Love",
       "release_date": "2019-04-04",
-      "duration": "3:14"
+      "duration": "3:14",
+      "url":"/data/yt5s.io - BLACKPINK - 'Kill This Love' M_V (128 kbps).mp3",
+      "image":"/images/songs/kill-this-love.jpeg"
     },
     {
       "song_id": "S008",
@@ -69,7 +83,9 @@
       "genre": "Rock",
       "album": "Led Zeppelin IV",
       "release_date": "1971-11-08",
-      "duration": "8:02"
+      "duration": "8:02",
+      "url":"",
+      "image":""
     },
     {
       "song_id": "S009",
@@ -78,7 +94,9 @@
       "genre": "Vpop",
       "album": "Nhạc Sống Trúc Nhân",
       "release_date": "2018-07-13",
-      "duration": "3:57"
+      "duration": "3:57",
+      "url":"",
+      "image":""
     },
     {
       "song_id": "S010",
@@ -87,7 +105,9 @@
       "genre": "US-UK",
       "album": "When We All Fall Asleep, Where Do We Go?",
       "release_date": "2019-03-29",
-      "duration": "3:14"
+      "duration": "3:14",
+      "url":"",
+      "image":""
     },
     {
       "song_id": "S011",
@@ -96,7 +116,9 @@
       "genre": "Vpop",
       "album": "Single",
       "release_date": "2021-06-11",
-      "duration": "3:54"
+      "duration": "3:54",
+      "url":"",
+      "image":""
     },
     {
       "song_id": "S012",
@@ -105,7 +127,9 @@
       "genre": "US-UK",
       "album": "Voicenotes",
       "release_date": "2018-04-21",
-      "duration": "3:31"
+      "duration": "3:31",
+      "url":"",
+      "image":"/images/songs/attention.jpeg"
     },
     {
       "song_id": "S013",
@@ -114,7 +138,9 @@
       "genre": "Vpop",
       "album": "Chưa Bao Giờ",
       "release_date": "2015-07-07",
-      "duration": "4:41"
+      "duration": "4:41",
+      "url":"/data/yt5s.io - Phan Mạnh Quỳnh - Vợ Người Ta (MV Official) (128 kbps).mp3",
+      "image":"/images/songs/vo-nguoi-ta.jpeg"
     },
     {
       "song_id": "S014",
@@ -123,7 +149,9 @@
       "genre": "US-UK",
       "album": "The Kids Are Coming",
       "release_date": "2019-05-10",
-      "duration": "3:29"
+      "duration": "3:29",
+      "url":"",
+      "image":"/images/songs/dance-monkey.jpeg"
     },
     {
       "song_id": "S015",
@@ -132,7 +160,9 @@
       "genre": "Vpop",
       "album": "Ngày Chưa Giông Bão",
       "release_date": "2020-04-24",
-      "duration": "3:31"
+      "duration": "3:31",
+      "url":"",
+      "image":"/images/songs/ngay-chua-giong-bao.jpeg"
     }
   ]
   
