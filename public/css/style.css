@@ -1,21 +1,20 @@
-
 @font-face {
     font-family: Inter;
-    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(../fonts/Inter-VariableFont_slnt\wght.ttf);
 }
 body {
     font-family: Inter;
 }
 
 /* Login and Signup Page Css */
-.submit-page{
+.submit-page {
     overflow: hidden;
-    background: linear-gradient(100deg,#161526 100%, #1C2439 0%)
+    background: linear-gradient(100deg, #161526 100%, #1c2439 0%);
 }
 
 .submit-page .submit-header {
     background-color: #101103;
-    width:auto;
+    width: auto;
 }
 
 .submit-header .logo img {
@@ -27,83 +26,79 @@ body {
     display: flex;
     flex-direction: column;
     width: 600px;
-    min-height:75vh;
+    min-height: 75vh;
     margin: 0 auto;
     margin-top: 30px;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
     padding: 10px 0 0;
 }
 
-.submit-wrapper .submit-title{
-color: white;
-font-weight: bold;
-font-size: 35px;
-text-align: center;
+.submit-wrapper .submit-title {
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
 }
 
-.submit-wrapper #formvalidate{
-   width: 442px;
-   margin: 0 auto;
-   margin-bottom: 10px;
+.submit-wrapper #formvalidate {
+    width: 442px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
-#formvalidate .form-group{
+#formvalidate .form-group {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
-.form-group .input-label{
+.form-group .input-label {
     color: white;
     font-weight: bold;
     font-size: 15px;
 }
-#formvalidate .form-group .input-label{
+#formvalidate .form-group .input-label {
     margin-bottom: 10px;
 }
 
-#formvalidate .form-group:not(:last-child){
+#formvalidate .form-group:not(:last-child) {
     margin-bottom: 20px;
 }
 
-#formvalidate .form-group .input-field{
+#formvalidate .form-group .input-field {
     padding: 10px;
     background: #302d3d 24%;
     outline: none;
     border-color: #101103;
-    color:  white;
+    color: white;
     border-radius: 8px;
 }
 
-#formvalidate .submit-btn{
-margin-top: 20px;
-width:100%;
-padding: 10px 0;
-background-color: #35A655;
-border-radius: 20px;
-color: white;
-font-size: 20px;
-font-weight: bold;
-border-color: #35A655 
+#formvalidate .submit-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #35a655;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: #35a655;
 }
 
-.submit-wrapper #separator{
+.submit-wrapper #separator {
     border-bottom: 1px solid white;
     width: 50%;
     margin: 10px auto;
 }
-.submit-wrapper #signup-link{
+.submit-wrapper #signup-link {
     color: white;
     font-weight: bold;
     text-align: center;
-    font-size: 15px; 
+    font-size: 15px;
 }
-.submit-wrapper #signin-link{
+.submit-wrapper #signin-link {
     color: white;
     font-weight: bold;
     text-align: center;
-    font-size: 15px; 
+    font-size: 15px;
 }
-
-
-
-

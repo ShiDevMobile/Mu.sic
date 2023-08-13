@@ -20,5 +20,8 @@ $("button[type='button']").addEventListener("click", async function (e) {
         setTimeout(() => {
             window.location.href = "/";
         }, 3000);
+    } else {
+        $(".msg").innerText = response.msg;
+        $(".msg").style.color = "white";
     }
 });

@@ -1,0 +1,56 @@
+<main style="background-color: #1c2439" class="col-10 content-liked container-main-content">
+    <div
+        style="padding: 20px; margin-top: 30px"
+        class="mb-4 d-flex justify-content-between container"
+    >
+        <input
+            class="form-control search-input me-2 d-flex col-5"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            style="
+                background-color: #12192c;
+                outline-color: white;
+                color: white;
+                padding: 10px 25px;
+                border-radius: 40px;
+            "
+        />
+    </div>
+    <section class="container">
+        <section class="splide d-none">
+            <div class="splide__slider">
+                <div class="splide__track">
+                    <ul class="splide__list" style="column-gap: 10px"></ul>
+                </div>
+            </div>
+        </section>
+        <style>
+            .liked-song .bi-heart {
+                display: block;
+            }
+            .liked-song .bi-heart.active {
+                display: none;
+            }
+            .liked-song .bi-heart.active ~ .bi-heart-fill {
+                display: block;
+            }
+            .liked-song .bi-heart-fill {
+                display: none;
+            }
+            .temp-card {
+                position: relative;
+            }
+
+            .liked-song {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+        </style>
+        <ul
+            class="list list_songs list_liked d-flex flex-wrap text-white list_songs_page_2"
+            style="gap: 30px"
+        ></ul>
+    </section>
+</main>

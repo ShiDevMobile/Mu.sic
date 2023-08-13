@@ -1,323 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Home</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <%- include("partials/header") %>
+    <style>
+        ::-webkit-scrollbar {
+            display: none;
+        }
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-            crossorigin="anonymous"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-        />
-    </head>
-
+        /* Hide scrollbar for IE, Edge and Firefox */
+        :root {
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
+        }
+    </style>
     <body class="container-fluid">
-        <main class="row" style="height: 1200px">
-            <aside style="background-color: #12192c; padding: 30px" class="col-2">
-                <ul class="nav flex-column" style="row-gap: 40px">
-                    <style>
-                        .nav-link.active {
-                            color: #d0c918 !important;
-                        }
-                    </style>
-                    <li class="nav-item navbar-brand">
-                        <a class="nav-link active" aria-current="page" href="#"
-                            ><img style="width: 250px" src="/images/Logo.png" alt="logo"
-                        /></a>
-                    </li>
-                    <li class="nav-item">
-                        <a
-                            class="nav-link text-white fw-bold fs-4 active"
-                            aria-current="page"
-                            href="#"
-                            ><i class="bi bi-house"></i> Home</a
-                        >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white fw-bold fs-4" href="#"
-                            ><i class="bi bi-journal-album"></i> Albums</a
-                        >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white fw-bold fs-4" href="#"
-                            ><i class="bi bi-file-earmark-person"></i> Artists</a
-                        >
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white fw-bold fs-4" aria-disabled="true"
-                            ><i class="bi bi-journal-album"></i> Liked songs</a
-                        >
-                    </li>
-                </ul>
-            </aside>
-            <main style="background-color: #1c2439" class="col-10">
-                <div
-                    style="padding: 20px; margin-top: 30px"
-                    class="d-flex justify-content-between container"
-                >
-                    <form class="d-flex col-5" role="search">
-                        <input
-                            class="form-control me-2"
-                            type="search"
-                            placeholder="Search"
-                            aria-label="Search"
-                            style="
-                                background-color: #12192c;
-                                outline-color: white;
-                                padding: 10px 25px;
-                                border-radius: 40px;
-                            "
-                        />
-                        <button
-                            class="btn btn-dark"
-                            style="border-radius: 40px; width: 130px"
-                            type="submit"
-                        >
-                            Search
-                        </button>
-                    </form>
-                    <button class="btn btn-dark" style="width: 150px">Sign out</button>
-                </div>
-                <section class="container text-white">
-                    <div class="describer mt-5">
-                        <h4>More of what you like</h4>
-                        <p>
-                            suggestions based on what you’re liked or played
-                        </p>
-                    </div>
-                    <div class="bg-white border rounded-5">
 
-                        <section class="p-4 d-flex justify-content-center w-100">
-                        <style>
-                        .card-title {
-                            color: #db0075;
-                        }
-                        .card-text {
-                            color: #17E6E6;
-                        }
-                        .list-inline-item {
-                            color: #ffd700
-                        }
-                        .price {
-                            color: #9B1B30;
-                        }
-                        .btn-pink {
-                            background-color: #fcb2b2 !important;
-                        }
-                        .carousel-control-next, .carousel-control-prev {
-                            position: relative;
-                            width: auto;
-                        }
-                        .multi-carousel {
-                        overflow :auto;
-                        }
+        <style>
+            .liked-song .bi-heart {
+                display: block;
+            }
+            .liked-song .bi-heart.active {
+                display: none;
+            }
+            .liked-song .bi-heart.active ~ .bi-heart-fill {
+                display: block;
+            }
+            .liked-song .bi-heart-fill {
+                display: none;
+            }
+            .temp-card {
+                position: relative;
+            }
 
-                        </style>
-                        <div class="multi-carousel" data-mdb-interval="3000" data-mdb-items="5">
-                            <div class="d-flex justify-content-center m-2 mb-3">
-                                <button class="carousel-control-prev btn btn-pink btn-floating mx-3" type="button" tabindex="0" data-mdb-slide="prev">
-                                    <i class="fas fa-angle-left fa-lg"></i>
-                                </button>
-                                <button class="carousel-control-next btn btn-pink btn-floating mx-3" type="button" tabindex="0" data-mdb-slide="next">
-                                    <i class="fas fa-angle-right fa-lg"></i>
-                                </button>
-                            </div>
-                            <div class="multi-carousel-inner">
-
-
-
-
-
-
-
-
-
-                            <div class="multi-carousel-item" style="width: 20%; margin-left: 0px;">
-                                    <div class="card m-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(9).jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">High Voltage</h5>
-                                            <p class="card-text">AC/DC</p>
-                                            <ul class="list-unstyled list-inline my-2">
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                            </ul>
-                                            <p class="price mb-0">24,99 $</p>
-                                        </div>
-                                    </div>
-                                </div><div class="multi-carousel-item" style="width: 20%; margin-left: 0px;">
-                                    <div class="card m-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Moda</h5>
-                                            <p class="card-text">Plan B</p>
-                                            <ul class="list-unstyled list-inline my-2">
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
-                                            </ul>
-                                            <p class="price mb-0">9,99 $</p>
-                                        </div>
-                                    </div>
-                                </div><div class="multi-carousel-item" style="width: 20%; margin-left: 0px;">
-                                    <div class="card m-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(1).jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Indie City</h5>
-                                            <p class="card-text">Pixies</p>
-                                            <ul class="list-unstyled list-inline my-2">
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <p class="price mb-0">14,99 $</p>
-                                        </div>
-                                    </div>
-                                </div><div class="multi-carousel-item" style="width: 20%; margin-left: 0px;">
-                                    <div class="card m-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(7).jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Year</h5>
-                                            <p class="card-text">Indielectru</p>
-                                            <ul class="list-unstyled list-inline my-2">
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                            </ul>
-                                            <p class="price mb-0">12,99 $</p>
-                                        </div>
-                                    </div>
-                                </div><div class="multi-carousel-item" style="width: 20%; margin-left: 0px;">
-                                    <div class="card m-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(8).jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">L'Hiver Indien</h5>
-                                            <p class="card-text">Baloji</p>
-                                            <ul class="list-unstyled list-inline my-2">
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
-                                            </ul>
-                                            <p class="price mb-0">10,99 $</p>
-                                        </div>
-                                    </div>
-                                </div><div class="multi-carousel-item" style="width: 20%; margin-left: 0px;">
-                                    <div class="card m-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(6).jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Indie Funk</h5>
-                                            <p class="card-text">Generation Funk</p>
-                                            <ul class="list-unstyled list-inline my-2">
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                            </ul>
-                                            <p class="price mb-0">19,99 $</p>
-                                        </div>
-                                    </div>
-                                </div><div class="multi-carousel-item" style="width: 20%; margin-left: 0px;">
-                                    <div class="card m-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(2).jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Rockferry</h5>
-                                            <p class="card-text">Duffy</p>
-                                            <ul class="list-unstyled list-inline my-2">
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
-                                            </ul>
-                                            <p class="price mb-0">17,99 $</p>
-                                        </div>
-                                    </div>
-                                </div><div class="multi-carousel-item" style="width: 20%; margin-left: 0px;">
-                                    <div class="card m-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(3).jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Indie Pop</h5>
-                                            <p class="card-text">Various artists</p>
-                                            <ul class="list-unstyled list-inline my-2">
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="far fa-star"></i></li>
-                                            </ul>
-                                            <p class="price mb-0">9,99 $</p>
-                                        </div>
-                                    </div>
-                                </div><div class="multi-carousel-item" style="width: 20%; margin-left: 0px;">
-                                    <div class="card m-2">
-                                        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(5).jpg" alt="Card image cap">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Rock 'N' Roll</h5>
-                                            <p class="card-text">Chuck Berry</p>
-                                            <ul class="list-unstyled list-inline my-2">
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                                                <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
-                                            </ul>
-                                            <p class="price mb-0">29,99 $</p>
-                                        </div>
-                                    </div>
-                                </div></div>
-                        </div>
-
-
-                        </section>
-
-
-
-                        <div class="p-4 text-center border-top mobile-hidden">
-                          <a class="btn btn-link px-3" data-mdb-toggle="collapse" href="#example1" role="button" aria-expanded="true" aria-controls="example1" data-ripple-color="hsl(0, 0%, 67%)" style="">
-                            <i class="fas fa-code me-md-2"></i>
-                            <span class="d-none d-md-inline-block">
-                              Show code
-                            </span>
-                          </a>
-
-
-                            <a class="btn btn-link px-3 " data-ripple-color="hsl(0, 0%, 67%)">
-                              <i class="fas fa-file-code me-md-2 pe-none"></i>
-                              <span class="d-none d-md-inline-block export-to-snippet pe-none">
-                                Edit in sandbox
-                              </span>
-                            </a>
-
-                        </div>
-
-
-                      </div>
-                </section>
-            </main>
+            .liked-song {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+        </style>
+        <main class="row" style="padding-bottom: 80px">
+            <%- include("partials/side-bar") %>
+            <%- include("pages/home") %>
+            <%- include("pages/songs") %>
+            <%- include("pages/artist", {artists}) %>
+            <%- include("pages/liked-songs") %>
         </main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
+        <%- include("partials/player", {best4Songs}) %>
+
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -330,5 +58,6 @@
             integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
             crossorigin="anonymous"
         ></script>
+        <script src="https://cdn.jsdelivr.net/npm/fuzzy-search@3.2.1/dist/FuzzySearch.min.js"></script>
     </body>
 </html>
