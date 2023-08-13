@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign In - Mu.sic</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <script defer src="/js/login.js"></script>
+    </head>
+    <body class="submit-page">
+        <header class="submit-header">
+            <div class="logo">
+                <img src="/images/Logo.png" alt="logo" />
+            </div>
+        </header>
+        <main>
+            <div class="submit-wrapper">
+                <p class="submit-title">SIGN IN</p>
+                <form id="formvalidate">
+                    <div class="form-group">
+                        <label for="email" class="input-label">Email</label><br />
+                        <input
+                            type="text"
+                            id="email"
+                            name="email"
+                            class="input-field"
+                            placeholder="Enter your email.."
+                            required
+                            autocomplete="false"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="input-label">Password</label><br />
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            class="input-field"
+                            placeholder="Enter your password.."
+                            required
+                        />
+                    </div>
+                    <p class="msg"></p>
+                    <button type="button" class="submit-btn">SIGN IN</button>
+                </form>
+                <div id="separator"></div>
+                <a href="/signup" id="signup-link" style="color: white;" class="clickable-text">Create New Account</p>
+            </div>
+        </main>
+    </body>
+</html>

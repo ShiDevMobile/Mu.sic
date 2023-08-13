@@ -1,0 +1,97 @@
+<footer class="player-audio">
+    <div
+        class="fixed-bottom d-flex justify-content-around"
+        style="height: 80px; background-color: #12192c"
+    >
+        <div
+            class="d-flex align-content-center"
+            style="background-color: #12192c; column-gap: 30px"
+        >
+            <img
+                class="image-player"
+                src="<%= best4Songs[0].image %>"
+                style="width: 50px; object-fit: contain"
+            />
+            <div class="card-body text-white d-flex flex-column justify-content-center">
+                <a
+                    href="#"
+                    class="text-white"
+                    style="display: block; text-decoration: none; line-height: 1.7"
+                >
+                    <h5 class="card-title title-player"><%= best4Songs[0].title %></h5>
+                </a>
+                <p class="card-text d-inline-block artist-player"><%= best4Songs[0].artist %></p>
+            </div>
+        </div>
+        <style>
+            .play-status i.fa-play {
+                display: none;
+            }
+            .play-status i.fa-play ~ i.fa-stop {
+                display: block;
+            }
+            .play-status i.active {
+                display: block;
+            }
+            .play-status i.active ~ i.fa-stop {
+                display: none;
+            }
+            .music-control li {
+                cursor: pointer;
+            }
+            .music-control li i.fa-shuffle.active,
+            .music-control li i.fa-repeat.active {
+                color: pink;
+            }
+        </style>
+        <div class="col-5">
+            <audio class="song" src="<%= best4Songs[0].url %>" hidden></audio>
+            <div class="music-control p-3">
+                <ul class="text-white d-flex justify-content-evenly fs-6 list-unstyled">
+                    <li><i class="fa-solid fa-shuffle"></i></li>
+                    <li><i class="fa-solid fa-backward-step"></i></li>
+                    <li class="play-status">
+                        <i class="fa-solid fa-play active"></i>
+                        <i class="fa-solid fa-stop"></i>
+                    </li>
+                    <li><i class="fa-solid fa-forward-step"></i></li>
+                    <li><i class="fa-solid fa-repeat"></i></li>
+                </ul>
+                <div class="row">
+                    <progress
+                        style="transform: translateY(30%)"
+                        class="time col-11"
+                        max="100"
+                        value="0"
+                    ></progress>
+                    <p class="text-white col-1 time-text">2:43</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-2 d-flex align-items-center">
+            <ul
+                class="text-white d-flex justify-content-evenly fs-6 list-unstyled"
+                style="column-gap: 20px"
+            >
+                <li><i class="fa-solid fa-microphone"></i></li>
+                <li><i class="fa-solid fa-list"></i></li>
+                <li class=""><i class="fa-solid fa-computer"></i></li>
+                <li class="volume-state">
+                    <i class="fa-solid fa-volume-high"></i>
+                </li>
+                <li>
+                    <input
+                        type="range"
+                        class="volume"
+                        step="0.1"
+                        min="0"
+                        max="1"
+                        value="1"
+                        style="width: 100%"
+                    />
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- place footer here -->
+</footer>

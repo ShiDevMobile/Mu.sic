@@ -1,0 +1,109 @@
+<main style="background-color: #1c2439" class="col-10 content-home active container-main-content">
+    <section class="container text-white">
+        <div class="describer mt-5">
+            <h4>More of what you like</h4>
+            <p>Suggestions based on what you’re liked or played</p>
+        </div>
+        <style>
+            .splide__pagination.splide__pagination--ltr {
+                display: none;
+            }
+            .splide__arrows.splide__arrows--ltr {
+                display: none;
+            }
+        </style>
+        <section class="splide">
+            <div class="splide__slider">
+                <div class="splide__track">
+                    <ul class="splide__list list_songs" style="column-gap: 10px">
+                        <!-- <li class="splide__slide"></li> -->
+                        <% for (const song of songs) { %>
+
+            <div class="temp-card splide__slide">
+                <div
+                    data-id="<%= song.song_id %>"
+                    class="card  song-player"
+                    style="background-color: #12192c; cursor: pointer"
+                >
+                    <img
+                        src="<%= song.image %>"
+                        class="card-img-top"
+                        style="height: 200px; object-fit: contain"
+                        alt="<%= song.title %>"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title"><%= song.title %></h5>
+                        <p class="card-text"><%= song.artist %></p>
+                    </div>
+                </div>
+                <div class="liked-song">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-heart-fill"></i>
+                </div>
+            </div>
+                        <% } %>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="container text-white">
+        <div class="describer mt-5">
+            <h4>Music weekly</h4>
+        </div>
+        <section class="row">
+            <style>
+                .song_of_week {
+                    display: grid;
+                    column-gap: 20px;
+                    row-gap: 20px;
+                    grid-template-areas: "a b b b" "a c c c" "a d d d";
+                }
+                .the_best_of_week {
+                    grid-area: a;
+                }
+
+                .the_best_of_week img {
+                    height: 200px;
+                    object-fit: contain;
+                }
+                .the_sub_of_week-1 {
+                    height: 100px;
+                    grid-area: b;
+                }
+                .the_sub_of_week-2 {
+                    height: 100px;
+                    grid-area: c;
+                }
+                .the_sub_of_week-3 {
+                    height: 100px;
+                    grid-area: d;
+                }
+                .the_sub_of_week-1 img,.the_sub_of_week-2 img,.the_sub_of_week-3 img {
+                    width: 100px;
+                    margin-top: 20px;
+                }
+            </style>
+            <ul class="song_of_week">
+                <% for (const song of best4Songs.entries()) { %>
+                <div
+                data-id="<%= song[1].song_id %>"
+                    data-url="<%= song[1].url %>"
+                    class="card splide__slide song-player <%- +song[0] === 0 ? "the_best_of_week": " row the_sub_of_week"+`-${+song[0]}` %>"
+                    style="background-color: #12192c; cursor: pointer"
+                >
+                    <img
+                        src="<%= song[1].image %>"
+                        class="card-img-top"
+                        alt="<%= song.title %>"
+                    />
+                    <div class="card-body">
+                            <h5 class="card-title"><%= song[1].title %></h5>
+                        <p class="card-text"><%= song[1].artist %></p>
+                    </div>
+                </div>
+                <% } %>
+            </ul>
+        </section>
+    </section>
+</main>

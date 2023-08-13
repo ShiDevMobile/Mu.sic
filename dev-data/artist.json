@@ -1,78 +1,86 @@
-{
-    "artists": [
-      {
+[
+    {
+        "artist_id": "1",
         "name": "Đức Phúc",
-        "genre": "Vpop"
-      },
-      {
+        "genre": "Vpop",
+        "image": "/images/artists/duc-phuc.jpeg"
+    },
+    {
+        "artist_id": "2",
         "name": "The Weeknd",
-        "genre": "US-UK"
-      },
-      {
+        "genre": "US-UK",
+        "image": "/images/artists/the-weeknd.jpeg"
+    },
+    {
+        "artist_id": "3",
         "name": "Travis Scott",
         "genre": "US-UK",
         "image": "/images/artists/travist-scott.jpeg"
-      },
-      {
+    },
+    {
+        "artist_id": "4",
         "name": "BTS",
         "genre": "Kpop",
         "image": "/images/artists/bts.jpeg"
-      },
-      {
+    },
+    {
+        "artist_id": "5",
         "name": "Double2T",
         "genre": "Rap Việt",
         "image": "/images/artists/double2t.jpeg"
-      },
-      {
+    },
+    {
+        "artist_id": "6",
         "name": "Adele",
         "genre": "US-UK",
         "image": "/images/artists/adele.jpeg"
-      },
-      {
+    },
+    {
+        "artist_id": "7",
         "name": "BLACKPINK",
         "genre": "Kpop",
         "image": "/images/artists/blackpink.jpeg"
-      },
-      {
+    },
+    {
+        "artist_id": "8",
         "name": "Led Zeppelin",
         "genre": "Rock",
         "image": "/images/artists/led-zeppelin.jpeg"
-      },
-      {
+    },
+    {
+        "artist_id": "9",
         "name": "Trúc Nhân",
         "genre": "Vpop",
         "image": "/images/artists/truc-nhan.jpeg"
-      },
-      {
+    },
+    {
+        "artist_id": "10",
         "name": "Billie Eilish",
         "genre": "US-UK",
         "image": "/images/artists/billie-eilish.jpeg"
-      },
-      {
-        "name": "Crayon",
-        "genre": "Vpop",
-        "image": ""
-      },
-      {
+    },
+    {
+        "artist_id": "12",
         "name": "Charlie Puth",
         "genre": "US-UK",
         "image": "/images/artists/charlie-puth.jpeg"
-      },
-      {
+    },
+    {
+        "artist_id": "13",
         "name": "Phan Mạnh Quỳnh",
         "genre": "Vpop",
         "image": "/images/artists/phan-manh-quynh.jpeg"
-      },
-      {
+    },
+    {
+        "artist_id": "14",
         "name": "Tones and I",
         "genre": "US-UK",
         "image": "/images/artists/tones-and-i.jpeg"
-      },
-      {
+    },
+    {
+        "artist_id": "15",
         "name": "Trịnh Thăng Bình",
         "genre": "Vpop",
         "image": "/images/artists/trinh-thang-binh.jpeg"
-      }
-    ]
-  }
-  
+    }
+]

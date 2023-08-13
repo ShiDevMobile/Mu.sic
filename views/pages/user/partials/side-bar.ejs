@@ -1,0 +1,55 @@
+<aside style="background-color: #12192c; padding: 30px 0 200px" class="col-2">
+    <ul class="nav list-target flex-column" style="row-gap: 40px">
+        <style>
+            .nav-link.content-home.active,
+            .nav-link.content-song.active,
+            .nav-link.content-artist.active,
+            .nav-link.content-liked.active {
+                color: #d0c918 !important;
+            }
+            main.content-home,
+            main.content-song,
+            main.content-artist,
+            main.content-liked {
+                display: none;
+            }
+            .content-home.active,
+            .content-song.active,
+            .content-artist.active,
+            .content-liked.active {
+                display: block;
+            }
+        </style>
+        <li class="navbar-brand">
+            <a class="nav-link" aria-current="page" href="/"
+                ><img style="width: 250px" src="/images/Logo.png" alt="logo"
+            /></a>
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link content-home active text-white fw-bold fs-4"
+                ><i class="bi bi-house"></i> Home</a
+            >
+        </li>
+        <li class="nav-item">
+            <a
+                href="#"
+                class="nav-link content-song text-white fw-bold fs-4"
+                data-bs-toggle="collapse"
+                ><i class="bi bi-journal-album"></i> Songs</a
+            >
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link content-artist text-white fw-bold fs-4"
+                ><i class="bi bi-file-earmark-person"></i> Artists</a
+            >
+        </li>
+        <li class="nav-item">
+            <a href="#" class="nav-link content-liked text-white fw-bold fs-4"
+                ><i class="bi bi-journal-album"></i> Liked songs</a
+            >
+        </li>
+        <li style="margin-top: 200px">
+            <a href="/login" class="btn btn-dark" style="width: 150px">Sign out</a>
+        </li>
+    </ul>
+</aside>
